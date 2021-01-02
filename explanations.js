@@ -14,6 +14,8 @@ var dosomething = function () {
 // dosomething ()
 
 
+
+// FUNCTIONS
 var whatIsMyFavcolor = function (){
 	return 'blue';
 }
@@ -23,4 +25,10 @@ var whatIsMyFavcolor = function (){
 var fullname = function (firstName, lastName) {
 	return firstName + lastName;
 }
-// fullname('Ben', 'Ola')
+// fullname('Ben','Ola')
+
+
+// IF STATEMENT
+if (true) {
+	alert ('male');
+}
