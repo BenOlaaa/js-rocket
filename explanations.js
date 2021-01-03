@@ -62,3 +62,8 @@ console.log ("My friends are Ballers!");
 
 
 console.log ('Where is the car?')
+
+
+var whatIsMyName = function (name){
+	alert ('My name is:' + name);
+}
