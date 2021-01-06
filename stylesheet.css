@@ -1,3 +1,22 @@
 body{
 	background-color: grey;
 }
+
+.cool{
+	display:none;
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	transition: background-color 1s;
+} 
+
+.cool.red {
+	display: block;
+	background-color: red;
+}
+
+
+/*You can pick a class ".class" and then add an extra attribute in a different property by add ".newname" eg ".class.width" meaning the class is now "class width"
+.cool.width{
+	width: 400px;
+}*/

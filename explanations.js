@@ -67,3 +67,19 @@ console.log ('Where is the car?')
 var whatIsMyName = function (name){
 	alert ('My name is:' + name);
 }
+
+
+var doCoolStuff = function (){
+	var currentClassName = document.getElementById('cool').className;
+
+	if (currentClassName == 'cool') {
+		document.getElementById('cool').className = 'cool red';
+	} else {
+		document.getElementById('cool').className = 'cool';
+	}
+}
+
+
+
+// var currentClassName = function (){
+// 	document.getElementById('cool').className;}
